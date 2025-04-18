@@ -11,9 +11,6 @@ importers:
       next:
         specifier: 15.3.0
         version: 15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      next-image-blur:
-        specifier: ^1.0.0
-        version: 1.0.0(next@15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(plaiceholder@3.0.0(sharp@0.34.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sharp@0.34.1)
       plaiceholder:
         specifier: ^3.0.0
         version: 3.0.0(sharp@0.34.1)
@@ -1327,15 +1324,6 @@ packages:
 
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
-
-  next-image-blur@1.0.0:
-    resolution: {integrity: sha512-Yt8ENXMSejqPMlmAoUSwK+u4plcvycKxhbpVujnr3tPSwQ4Oe1YGIwAv5j+3Xv9BCsRHUfU2zk4PIii/S8AlEw==}
-    peerDependencies:
-      next: '>=10.0.0'
-      plaiceholder: ^3.0.0
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
-      sharp: ^0.34.1
 
   next@15.3.0:
     resolution: {integrity: sha512-k0MgP6BsK8cZ73wRjMazl2y2UcXj49ZXLDEgx6BikWuby/CN+nh81qFFI16edgd7xYpe/jj2OZEIwCoqnzz0bQ==}
@@ -3091,14 +3079,6 @@ snapshots:
   nanoid@3.3.11: {}
 
   natural-compare@1.4.0: {}
-
-  next-image-blur@1.0.0(next@15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(plaiceholder@3.0.0(sharp@0.34.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(sharp@0.34.1):
-    dependencies:
-      next: 15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      plaiceholder: 3.0.0(sharp@0.34.1)
-      react: 19.1.0
-      react-dom: 19.1.0(react@19.1.0)
-      sharp: 0.34.1
 
   next@15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
